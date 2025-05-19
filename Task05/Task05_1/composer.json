@@ -1,0 +1,13 @@
+{
+    "name": "alexeyklimentev/task05_1",
+    "autoload": {
+      "psr-4": {
+        "Tests\\": "tests/",
+        "App\\": "src/"
+      },
+      "files": [ "src/Student.php" , "src/StudentList.php"]
+    },
+    "require": {
+      "phpunit/phpunit": "*"
+    }
+  }
